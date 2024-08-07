@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         } else {
             upArrow.style.position = "fixed";
-            // upArrow.style.display = "block";
+            upArrow.style.display = "block";
             upArrow.style.zIndex = "1000";
         }
                 // Check if the home section is visible
@@ -73,8 +73,8 @@ function scrollToTop() {
 }
 
 // document.addEventListener("DOMContentLoaded", function() {
-//     const navLinks = document.querySelectorAll('#about-nav a');
-//     const navItems = document.querySelectorAll('#about-nav p');
+//     const allNavLinks = document.querySelectorAll('#about-nav a, #side-nav a');
+//     const allNavItems = document.querySelectorAll('#about-nav p, #side-nav p');
 //     const tabContents = document.querySelectorAll('.tab-content');
 
 //     function showTabContent(id) {
@@ -84,10 +84,10 @@ function scrollToTop() {
 //         document.getElementById(id).classList.add('active');
 //     }
 
-//     navLinks.forEach(link => {
+//     allNavLinks.forEach(link => {
 //         link.addEventListener('click', function(event) {
 //             event.preventDefault();
-//             navItems.forEach(item => {
+//             allNavItems.forEach(item => {
 //                 item.classList.remove('active-nav');
 //             });
 //             this.parentElement.classList.add('active-nav');
@@ -97,7 +97,7 @@ function scrollToTop() {
 //     });
 
 //     // Set the default active tab
-//     document.getElementById('nav-education').classList.add('active-nav');
+//     document.querySelector('#about-nav #nav-education, #side-nav #nav-education').classList.add('active-nav');
 //     showTabContent('education');
 // });
 document.addEventListener("DOMContentLoaded", function() {
@@ -125,6 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     // Set the default active tab
-    document.querySelector('#about-nav #nav-education, #side-nav #nav-education').classList.add('active-nav');
+    document.querySelector('#about-nav #nav-education').classList.add('active-nav');
+    document.querySelector('#side-nav #nav-education').classList.add('active-nav');
     showTabContent('education');
 });
