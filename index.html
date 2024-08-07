@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kayalvizhi</title>
+    <link rel="icon" href="./images/myprofile2.jpg" type="image/png">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLESHEET LINK -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <!-- FONT AWESOME LINK -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GOOGLE FONT LINK FOR LOGO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Sans:ital,wdth,wght@0,62.5,100..900;1,62.5,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Serif&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SCRIPT LINK -->
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- <img
+      src="./images/Minimalist Business Coach Facebook Cover.png"
+      alt=""
+      id="cover-img"
+    /> -->
+<!-- HEADER -->
+  <header id="header">
+    <div class="navbar">
+      <a href="index.html">
+        <div class="logo">
+          <img src="./images/myprofile2.jpg" alt="Profile image" />
+          <h2 id="name">Careline Kayalvizhi</h2>
+        </div>
+      </a>
+      <nav>
+        <!-- <p><a href="#home">Home</a></p> -->
+        <p><a href="#cover-img" id="nav-home">Home</a></p>
+        <p><a href="#about" id="nav-about">About</a></p>
+        <p><a href="#skills" id="nav-skills">Skills</a></p>
+        <p><a href="#projects" id="nav-projects">Project</a></p>
+        <p><a href="#contact" id="nav-contact">Contact</a></p>
+        <i
+          class="fa-solid fa-bars"
+          id="menu-icon"
+          onclick="displaymenu(event)"
+        ></i>
+        <i
+          id="close-icon"
+          class="fa-solid fa-xmark"
+          onclick="closemenu(event)"
+        ></i>
+      </nav>
+    </div>
+    <!-- sidebar -->
+    <div class="sidebar">
+
+    <p><a href="#cover-img" id="nav-home" onclick="closemenu(event)">Home</a></p>
+
+      <p><a href="#about" onclick="closemenu(event)">About</a></p>
+      <hr />
+      <p><a href="#skills" onclick="closemenu(event)">Skills</a></p>
+      <hr />
+      <p><a href="#projects" onclick="closemenu(event)">Project</a></p>
+      <hr />
+      <!-- <p><a href="#education" onclick="closemenu(event)">Education</a></p>
+    <hr>
+    <p><a href="#acheivements" onclick="closemenu(event)">Acheivements</a></p> -->
+      <hr />
+      <p><a href="#contact" onclick="closemenu(event)">Contact</a></p>
+    </div>
+    <!-- <div class="sidebar">
+    <p id="close-icon">
+      <i
+        class="fa-solid fa-xmark"
+        style="color: #ffffff"
+        onclick="closemenu()"
+      ></i>
+    </p>
+    <p><a href="index.html">Home</a></p>
+    <p><a href="#about">About</a></p>
+    <p><a href="#skills">Skills</a></p>
+    <p><a href="#projects">Project</a></p>
+    <p><a href="#education">Education</a></p>
+    <p><a href="#acheivements">Acheivements</a></p>
+    <p><a href="#contacts">Contact</a></p>
+  </div> -->
+  </header>
+<!-- MAIN -->
+  <main class="main">
+      <section id="home">
+        <div class="intro">
+          <h1>Hello!</h1>
+          <h1>I'm <spsn id="myname">Careline Kayalvizhi</spsn></h1>
+          <p>
+            I am a
+            <span class="multiple-text">
+              Fresher with a Passion for Innovation</span
+            >
+          </p>
+          <div class="social-media">
+            <a href="https://github.com/Kayal-02" target="_blank"
+              ><i class="fa-brands fa-github social-media-icon"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/careline-kayalvizhi-m-a89a20314/" target="_blank"
+              ><i class="fa-brands fa-linkedin-in social-media-icon"></i
+            ></a>
+            <a href="mailto:carolinekayal88@gmail.com" target="_blank"
+              ><i class="fa-regular fa-envelope social-media-icon"></i
+            ></a>
+            <a href="#" target="_blank"
+              ><i class="fa-brands fa-whatsapp social-media-icon"></i
+            ></a>
+            <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+          </div>
+          <div class="btn">
+            <a
+              href="https://drive.google.com/file/d/1W6INxAn58x0yuIRlP7mJXmDroUoUGdMO/view?usp=sharing"
+              >Check Resume</a
+            >
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+          <img src="./images/pixelcut-export.jpeg" alt="about image" />
+          <div class="aboutme">
+            <h3>Get to know me!</h3>
+            <p>
+              I am a recent graduate with a
+              <strong>Master's in Computer Applications</strong> from Ethiraj
+              College for Women. During my studies, I developed
+              <strong>strong skills</strong> in various programming languages
+              and technologies. During my internships, I gained
+              <strong>practical experience</strong> in
+              <strong>web application development</strong> and collaborating
+              effectively with team members on design and development tasks. I
+              am a <strong>Frontend-Focused Web Developer</strong> with a
+              passion for
+              <strong>building and managing the front-end</strong> of websites
+              and web applications to contribute to the success of the overall
+              product. As a recent graduate, I have worked on several projects
+              that demonstrate my <strong>skills</strong> and
+              <strong>dedication</strong>. Check out some of my work in the
+              <a href="#projects"><span>Projects</span></a>
+              section.
+              <br /><br />
+              I am a <strong>quick learner</strong> who is passionate about
+              <strong>innovation</strong> and eager to apply my skills and
+              knowledge to contribute to the success of an organization. I'm
+              <strong>open to job opportunities</strong> where I can
+              <strong>contribute, learn, and grow</strong>. If you have a good
+              opportunity that matches my skills and experience, don't hesitate
+              to
+              <a href="#contact"><span>contact me</span></a>
+            </p>
+          </div>
+        </div>
+        <div id="about-nav">
+          <p id="nav-education">
+              <a href="#education" data-target="education"><i class="fa-solid fa-user-graduate"></i> Education</a>
+          </p>
+          <p id="nav-internship">
+              <a href="#internship" data-target="internship"><i class="fa-solid fa-trophy"></i> Internship</a>
+          </p>
+          <p id="nav-certifications">
+              <a href="#certifications" data-target="certifications"><i class="fa-solid fa-shield-halved"></i> Certifications</a>
+          </p>
+      </div> 
+      <div id="side-nav">
+        <p id="nav-education">
+            <a href="#education" data-target="education"><i class="fa-solid fa-user-graduate"></i></a>
+        </p>
+        <p id="nav-internship">
+            <a href="#internship" data-target="internship"><i class="fa-solid fa-trophy"></i> </a>
+        </p>
+        <p id="nav-certifications">
+            <a href="#certifications" data-target="certifications"><i class="fa-solid fa-shield-halved"></i> </a>
+        </p>
+    </div> 
+   
+          <div id="education" class="tab-content">
+          <div class="edu">
+            <div class="education-item">
+              <h4>Master of Computer Applications (MCA)</h4>
+              <p>Ethiraj College For Women</p>
+              <p><i class="fa-solid fa-location-dot"></i> Egmore, Chennai</p>
+              <p><i class="fa-solid fa-calendar-days"></i> 10/2022 - 04/2024</p>
+              <p>CGPA: <progress value="6.96" max="10"></progress></p>
+            </div>
+
+            <div class="education-item">
+              <h4>Bachelor of Computer Applications (BCA)</h4>
+              <p>T.B.M.L College of Arts and Science</p>
+              <p><i class="fa-solid fa-location-dot"></i> Mayiladuthurai</p>
+              <p><i class="fa-solid fa-calendar-days"></i> 06/2019 - 03/2022</p>
+              <p>CGPA : <progress value="7.33" max="10">7.33/10</progress></p>
+            </div>
+
+            <div class="education-item">
+              <h4>Higher Secondary Certificate (HSC)</h4>
+              <p>Regina Caeli Girls Higher Secondary School</p>
+              <p><i class="fa-solid fa-location-dot"></i> Thanjavur</p>
+              <p><i class="fa-solid fa-calendar-days"></i> 06/2018 - 03/2019</p>
+              <p>Percentage: <progress value="60" max="100"></progress></p>
+            </div>
+
+            <div class="education-item">
+              <h4>Secondary School Leaving Certificate (SSLC)</h4>
+              <p>Sharmila Goddess Higher Secondary School</p>
+              <p><i class="fa-solid fa-location-dot"></i>Mayiladuthurai</p>
+              <p><i class="fa-solid fa-calendar-days"></i> 06/2016 - 03/2017</p>
+              <p>Percentage: <progress value="91.6" max="100"></progress></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="internship" class="tab-content">
+          <div class="intern">
+            <div class="internship-item">
+              <h4>Internship at Venba Information Technology</h4>
+              <p><strong>Duration:</strong> Four months</p>
+              <p><strong>Role:</strong> Web Application Developer</p>
+              <p>
+                During my internship, I gained practical experience in web
+                application development using CodeIgniter 4. I collaborated
+                effectively with team members on design and development tasks,
+                contributing to the evolution of platforms to meet user needs.
+              </p>
+            </div>
+            <div class="internship-item">
+              <h4>Eagle-Tech IT Solutions</h4>
+              <p><strong>Duration:</strong> Summer Internship</p>
+              <p><strong>Role:</strong> Intern</p>
+              <p>
+                At Eagle-Tech IT Solutions, I learned about corporate working
+                styles and office culture. This experience provided me with
+                insights into professional environments and enhanced my ability
+                to adapt and thrive in corporate settings.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div id="certifications" class="tab-content">
+          <div class="certify">
+            <div class="certification-item">
+              <h4>Business English Certificate (BEC) Preliminary</h4>
+              <p><strong>Issued by:</strong> Cambridge English</p>
+              <p>
+                <strong>Skills Demonstrated:</strong> Reading, Writing,
+                Listening, and Speaking in English
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <i id="uparrow" onclick="scrollToTop()" class="fa-solid fa-arrow-up"></i>
+      <section id="skills">
+        <h1 >My Skills</h1>
+        <div id="skills-content">
+          <div class="html">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+              alt="HTML Logo"
+              width="100"
+            />
+            <p>HTML5</p>
+          </div>
+          <div class="css">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"
+              alt="CSS Logo"
+              width="100"
+            />
+            <p>CSS</p>
+          </div>
+          <div class="mysql">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg"
+              alt="MySQL Logo"
+              width="100"
+            />
+            <p>MySQL</p>
+          </div>
+          <div class="java">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg"
+              alt="Java Logo"
+              width="100"
+            />
+            <p>Java</p>
+          </div>
+          <div class="javascript">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/d/dc/Javascript-shield.png" alt="JavaScript Logo"
+              width="100"
+            />
+            <p>JavaScript</p>
+          </div>
+          <div class="php">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg"
+              alt="PHP Logo"
+              width="100"
+            />
+            <p>PHP</p>
+          </div>
+          <div class="git">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Git_icon.svg"
+              alt="Git Logo"
+              width="100"
+            />
+            <p>Git</p>
+          </div>
+          <div class="github">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+              alt="GitHub Logo"
+              width="100"
+            />
+            <p>GitHub</p>
+          </div>
+
+          <div class="vscode">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg"
+              alt="VS Code Logo"
+              width="100"
+            />
+            <p>VS Code</p>
+          </div>
+          <div class="bootstrap">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+              alt="Bootstrap Logo"
+              width="100"
+            />
+            <p>Bootstrap</p>
+          </div>
+          <div class="CodeIgniter">
+            <img
+              src="https://cdn.worldvectorlogo.com/logos/codeigniter.svg"
+              alt="CodeIgniter Logo"
+              width="100"
+            />
+            <p>CodeIgniter(CI4)</p>
+          </div>
+          <div class="excel">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg"
+              alt="Excel Logo"
+              width="100"
+            />
+            <p>MS Excel</p>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="pro">
+          
+          <a href="https://kayal-02.github.io/Responsible-e-commerce-site/">
+              <video  autoplay loop>
+                <source src="./vedio/nostra.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <div>
+                <h3>Nostra - E-commerce Website</h3>
+                <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+                <p>
+                  Developed a sleek and responsive e-commerce website called Nostra,
+                  dedicated to fashion products. The website features intuitive navigation,
+                  dynamic content, and a seamless shopping experience. Utilizing HTML, CSS,
+                  and JavaScript.
+                </p>
+              </div>
+            </a>
+            <a
+                href="https://docs.google.com/document/d/1I4IuAD2W-S8hgCMxWTA4Triw-JhZNETr/edit?usp=drive_link&ouid=103440634858851207885&rtpof=true&sd=true"
+            >
+            
+                <video width="100%" height="auto" autoplay loop>
+                    <source src="./vedio/biometric.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <div>
+                    <h3>Biometric Fingerprint Attendance Register</h3>
+                    <p><strong>Technologies:</strong> Arduino IDE, MySQL (XAMPP), PHP</p>
+                    <p>
+                    Created a biometric fingerprint attendance system using an optical
+                    fingerprint reader with TTL UART interface. The system supports direct
+                    connections to microcontrollers and PCs, enabling secure and efficient
+                    attendance tracking and access control. The project utilized Arduino IDE
+                    for programming and MySQL (XAMPP) for database management.
+                    </p>
+                </div>
+            </a>
+            <a href="https://drive.google.com/file/d/180hZ-RJAvudDwzkIxp3UC_Bs-9IWkkI6/view?usp=drive_link">
+
+                <video width="100%" height="auto" autoplay loop>
+                    <source src="./vedio/stms.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                </video>
+                <div>
+                    <h4>Enhanced School Timetable Management System</h4>
+                    <p><strong>Technologies:</strong> PHP, MySQL (XAMPP), CodeIgniter 4</p>
+                    <p>
+                    Developed a dynamic web application to optimize academic scheduling for
+                    educational institutions. Features include automated timetable generation,
+                    user-specific access (Administrators, Teachers, Students), and real-time
+                    email notifications, enhancing efficiency and transparency in timetable
+                    management.
+                    </p>
+                </div>
+            </a>
+        </div>
+      </section>
+      <section id="contact">
+        <form action="https://formsubmit.co/608e27465abc28879d19c68da371835f" method="POST">
+          <!-- HONEYPOT -->
+          <input type="text" name="_honey" style="display: none;">
+      <!-- CAPTCHA -->
+      <input type="hidden" name="_captcha" value=false>
+      <!-- NEXT PAGE -->
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/success.html">
+      <div class="contact-content">
+        <h1 style="margin-bottom: 1em;">Contact us</h1>
+
+                <input type="text" name="name" id="contacter-name" placeholder="Your Name *" required>    
+                <input type="email" name="email" id="email" placeholder="Your Email *" required>    
+                <input type="text" name="subject" id="subject" placeholder="Write a Subject " >    
+                <textarea name="message" id="message" placeholder="Your Message *" required></textarea >
+        </div>
+        <button  type="submit" id="btn">Send Message</button>
+
+        </form>
+      </section> 
+  </main>
+<!-- FOOTER -->
+  <footer>
+    <a href="index.html">
+      <div class="logo">
+        <img src="./images/myprofile2.jpg" alt="Profile image" />
+        <h2 id="name">Careline Kayalvizhi</h2>
+      </div>
+    </a>
+    <!-- <p>If you have a good opportunity that matches my skills don't hesitate to contact me.</p> -->
+    <div class="social-media">
+      <a href="https://github.com/Kayal-02" target="_blank"><i class="fa-brands fa-github social-media-icon"></i></a>
+      <a href="https://www.linkedin.com/in/careline-kayalvizhi-m-a89a20314/"
+      target="_blank"><i class="fa-brands fa-linkedin-in social-media-icon" ></i
+      ></a>
+      <a href="mailto:carolinekayal88@gmail.com" target="_blank"><i class="fa-regular fa-envelope social-media-icon"></i></a>
+      <a href="#" target="_blank"><i class="fa-brands fa-whatsapp social-media-icon"></i></a>
+      <!-- <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+    </div>
+    <p id="copyrights">
+      &copy 2024. All rights reserved by Careline kayalvizhi.
+    </p>
+  </footer>  
+  </body>
+</html>
