@@ -53,7 +53,7 @@
         <p><a href="#about" id="nav-about">About</a></p>
         <p><a href="#skills" id="nav-skills">Skills</a></p>
         <p><a href="#projects" id="nav-projects">Project</a></p>
-        <p><a href="#contact" id="nav-contact">Contact</a></p>
+        <p><a href="#contact" id="nav-contact" >Contact</a></p>
         <i
           class="fa-solid fa-bars"
           id="menu-icon"
@@ -69,33 +69,18 @@
     <!-- sidebar -->
     <div class="sidebar">
 
-    <p><a href="#home" id="nav-home" onclick="closemenu(event)">Home</a></p>
+    <p><a href="#home" onclick="closemenu(event)">Home</a></p>
     <hr />
-      <p><a href="#about" onclick="closemenu(event)">About</a></p>
+      <p><a href="#about"  onclick="closemenu(event)">About</a></p>
       <hr />
       <p><a href="#skills" onclick="closemenu(event)">Skills</a></p>
       <hr />
       <p><a href="#projects" onclick="closemenu(event)">Project</a></p>
       <hr />
 
-      <p><a href="#contact" onclick="closemenu(event)">Contact</a></p>
+      <p><a href="#contact" onclick="closemenu(event)" >Contact</a></p>
     </div>
-    <!-- <div class="sidebar">
-    <p id="close-icon">
-      <i
-        class="fa-solid fa-xmark"
-        style="color: #ffffff"
-        onclick="closemenu()"
-      ></i>
-    </p>
-    <p><a href="index.html">Home</a></p>
-    <p><a href="#about">About</a></p>
-    <p><a href="#skills">Skills</a></p>
-    <p><a href="#projects">Project</a></p>
-    <p><a href="#education">Education</a></p>
-    <p><a href="#acheivements">Acheivements</a></p>
-    <p><a href="#contacts">Contact</a></p>
-  </div> -->
+
   </header>
 <!-- MAIN -->
   <main class="main">
@@ -198,7 +183,14 @@
               <p>Ethiraj College For Women</p>
               <p><i class="fa-solid fa-location-dot"></i> Egmore, Chennai</p>
               <p><i class="fa-solid fa-calendar-days"></i> 10/2022 - 04/2024</p>
-              <p>CGPA: <progress value="6.96" max="10"></progress></p>
+              <div class="marks">
+                <p >CGPA : 
+                  <div class="progress-container">
+                    <div class="progress-bar" style="width:   70%;">7/10
+                    </div>
+                  </div>
+                
+              </div>
             </div>
 
             <div class="education-item">
@@ -206,7 +198,14 @@
               <p>T.B.M.L College of Arts and Science</p>
               <p><i class="fa-solid fa-location-dot"></i> Mayiladuthurai</p>
               <p><i class="fa-solid fa-calendar-days"></i> 06/2019 - 03/2022</p>
-              <p>CGPA : <progress value="7.33" max="10">7.33/10</progress></p>
+              <div class="marks">
+                <p >Percentage: 
+                  <div class="progress-container">
+                    <div class="progress-bar" style="width:   73.3%;">7.33/10
+                    </div>
+                  </div>
+                
+              </div>
             </div>
 
             <div class="education-item">
@@ -214,7 +213,14 @@
               <p>Regina Caeli Girls Higher Secondary School</p>
               <p><i class="fa-solid fa-location-dot"></i> Thanjavur</p>
               <p><i class="fa-solid fa-calendar-days"></i> 06/2018 - 03/2019</p>
-              <p>Percentage: <progress value="60" max="100"></progress></p>
+              <div class="marks">
+                <p >Percentage: 
+                  <div class="progress-container">
+                    <div class="progress-bar" style="width:   60%;">60%
+                    </div>
+                  </div>
+                
+              </div>
             </div>
 
             <div class="education-item">
@@ -222,7 +228,15 @@
               <p>Sharmila Goddess Higher Secondary School</p>
               <p><i class="fa-solid fa-location-dot"></i>Mayiladuthurai</p>
               <p><i class="fa-solid fa-calendar-days"></i> 06/2016 - 03/2017</p>
-              <p>Percentage: <progress value="91.6" max="100"></progress></p>
+              <div class="marks">
+                <p >Percentage: 
+                  <div class="progress-container">
+                    <div class="progress-bar" style="width:   91.6%;">91.6%
+                    </div>
+                  </div>
+                
+              </div>
+             
             </div>
           </div>
         </div>
@@ -374,7 +388,7 @@
         <div class="pro">
           
           <a href="https://kayal-02.github.io/Responsible-e-commerce-site/">
-              <video  autoplay loop>
+              <video  autoplay loop muted >
                 <source src="./vedio/nostra.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
@@ -393,7 +407,7 @@
                 href="https://docs.google.com/document/d/1I4IuAD2W-S8hgCMxWTA4Triw-JhZNETr/edit?usp=drive_link&ouid=103440634858851207885&rtpof=true&sd=true"
             >
             
-                <video width="100%" height="auto" autoplay loop>
+                <video  autoplay loop muted>
                     <source src="./vedio/biometric.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -411,7 +425,7 @@
             </a>
             <a href="https://drive.google.com/file/d/180hZ-RJAvudDwzkIxp3UC_Bs-9IWkkI6/view?usp=drive_link">
 
-                <video width="100%" height="auto" autoplay loop>
+                <video width="100%" height="auto" autoplay loop muted>
                     <source src="./vedio/stms.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
@@ -430,25 +444,27 @@
         </div>
       </section>
       <section id="contact">
-        <form action="https://formsubmit.co/carolinekayal02@gmail.com" method="POST">
-          <!-- HONEYPOT -->
-          <input type="text" name="_honey" style="display: none;">
-      <!-- CAPTCHA -->
-      <input type="hidden" name="_captcha" value=false>
-      <!-- NEXT PAGE -->
-      <input type="hidden" name="_next" value="https://kayal-02.github.io/My-Portfolio/success.html">
-      <div class="contact-content">
-        <h1 style="margin-bottom: 1em;">Contact us</h1>
-
+        <form id="myForm" action="https://api.web3forms.com/submit" method="POST">
+            <!-- HONEYPOT -->
+            <div class="contact-content">
+                <h1 style="margin-bottom: 1em;">Contact us</h1>
+                <input type="hidden" name="access_key" value="b43e526b-c8fd-42e1-95c7-e18583b12b0c">
+                <!-- Honeypot Spam Protection -->
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+    
+                <!-- Custom Confirmation / Success Page -->
+                <!-- <input type="hidden" name="redirect" value=""> -->
+    
                 <input type="text" name="name" id="contacter-name" placeholder="Your Name *" required>    
                 <input type="email" name="email" id="email" placeholder="Your Email *" required>    
-                <input type="text" name="subject" id="subject" placeholder="Write a Subject " >    
-                <textarea name="message" id="message" placeholder="Your Message *" required></textarea >
-        </div>
-        <button  type="submit" id="btn">Send Message</button>
-
+                <input type="text" name="subject" id="subject" placeholder="Write a Subject">    
+                <textarea name="message" id="message" placeholder="Your Message *" required></textarea>
+            </div>
+            <button type="submit" id="btn">Send Message</button>
         </form>
-      </section> 
+        <div id="successMessage" style="display:none;"><i class="fa-solid fa-circle-check"></i>  Your message has been sent successfully! </div>
+    </section>
+    
   </main>
 <!-- FOOTER -->
   <footer>
@@ -471,6 +487,6 @@
     <p id="copyrights">
       &copy 2024. All rights reserved by Careline kayalvizhi.
     </p>
-  </footer>  
+  </footer> 
   </body>
 </html>
