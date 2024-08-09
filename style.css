@@ -677,6 +677,11 @@ color: rgb(255, 255, 255);
     color:#F9004D;
 font-weight: 400;
 }    
+.socialplatforms
+{
+    margin:2em 1.6em;
+    line-height: 2em;
+}
 /* FOOTER */
 
 footer
