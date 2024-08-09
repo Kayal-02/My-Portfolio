@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media links</title>
+      <!-- FONT AWESOME LINK -->
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>@font-face {
+        font-family: 'Inter';
+        src: url('./assets/fonts/static/Inter-Regular.ttf') format('truetype');
+        font-weight: 400;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('./assets/fonts/static/Inter-Bold.ttf') format('truetype');
+        font-weight: 700;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('./assets/fonts/static/Inter-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+    }
+    
+    @font-face {
+        font-family: 'Inter';
+        src: url('./assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+        font-weight: 100 900;
+        font-stretch: normal;
+    }
+    :root
+    {
+        --White: hsl(0, 0%, 100%);
+        --Grey: hsl(0, 0%, 20%);
+        --DarkGrey: hsl(0, 0%, 12%);
+        --OffBlack: hsl(0, 0%, 8%);
+        --Green: hsl(75, 94%, 57%);
+    }
+    *{
+        margin:0;
+        padding:0;
+        font-size: .935415rem;
+        text-decoration: none;
+    }
+    body{
+        background-color:var(--OffBlack) ;
+        color: var(--White);
+        font-family: 'Inter', sans-serif;
+    }
+    .wraper
+    {
+        background-color: var(--DarkGrey);
+        height: auto;
+        width:25rem;
+        margin: 18vh auto;
+        padding: 1.8em 0;
+        display: grid;
+        text-align: center;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-weight: 400; 
+    
+    
+    }
+     h1
+    {
+        margin-bottom: .5em;
+        font-family: 'Inter';
+        font-weight: 700;
+        font-size: 1.5em;
+    }
+    img{
+        width:90px;
+        height: 95px;
+        border-radius: 50%;
+        margin: 1em auto;
+    }
+    #address
+    {
+        color: var(--Green);
+        margin: 0 1em 1em;
+        padding: .5em 1em 1em;
+    }
+    .sociallinks
+    {
+    
+        margin: 1em auto;
+        display:grid;
+       justify-content: space-between;
+       align-items: center;
+       text-align: center;
+    
+    }
+    .sociallinks a{
+    background-color: var(--Grey);
+    width: 20rem;
+    margin:.5em ;
+    padding: 1em .2em;
+    border-radius: 10px;
+    color: var(--White);
+    font-family: 'Inter';
+    font-weight: 600;
+    }
+    main
+    {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .sociallinks a:hover{
+    background-color: var(--Green);
+    color: var(--OffBlack);
+    cursor: pointer;
+    }
+    #back
+    {
+        padding: .7em .2em;
+        width: 10em;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: var(--Green);
+    color: var(--OffBlack);
+    margin: 1.5em auto .5em;
+
+    }
+    #back:hover
+    {
+        padding: .85em ;
+        width: 10em;
+        border-radius: 50px;
+        letter-spacing: 1px;
+        background-color: var(--OffBlack);
+    color: var(--OffBlack);
+    border: 1px solid white;
+    margin: 1.5em auto .5em;
+    color: white;
+
+    }
+    @media only screen and (max-width:375px) {
+        
+        .wraper
+    {
+        width:80%;
+        padding: 0;
+    }
+    .sociallinks
+    {
+        margin-bottom: 1.5em;
+    }
+    .sociallinks a{
+        background-color: var(--Grey);
+        width: 70vw;
+        margin:.5em ;
+        /* padding: .8em .2em; */
+    }    
+    
+    }
+    </style>
+</head>
+<body>
+        <div class="wraper">
+            <header>
+            <img src="./images/myprofile2.jpg"  alt="profile">
+               <h1> Careline Kayalvizhi</h1>
+            </header>
+            <main>
+            <div id="address">
+                <p>Chennai, TamilNadu</p>
+            </div>
+            <!-- <p >"Recently graduated Fresher" </p> -->
+          
+            <div class="sociallinks">
+                <a href="https://github.com/Kayal-02" target="_blank">GitHub</a>
+                <a href="https://www.frontendmentor.io/profile/Kayal-02" target="_blank">Frontend Mentor</a>
+                <a href="https://www.linkedin.com/in/careline-kayalvizhi-m-a89a20314/" target="_blank">Linkedin</a>
+                <a href="https://leetcode.com/u/kayal_02/" target="_blank">Leetcode</a>
+                <a href="https://www.instagram.com/kayal_02__?igsh=MTcwbDBubzZkdmgxNQ==" target="_blank">Instagram</a>
+                <a href="index.html" id="back">Go Back <i class="fa-solid fa-chevron-right"></i></a>
+
+            </div>
+        </main>
+        </div>
+</body>
+</html>

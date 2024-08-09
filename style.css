@@ -153,7 +153,7 @@ color:white;
 top: 0;
 margin-top: 0em;
 background-color: #000000;
-padding-bottom: 2em;
+padding-bottom: 3em;
 }
 
 /* INTRO_HOME */
@@ -664,6 +664,19 @@ color: rgb(255, 255, 255);
     color: rgba(60, 235, 69, 0.87);
 }
 
+/* SOCIALLINKS */
+.socialplatforms h3
+{
+    color: #ffffffad;
+    font-weight: 300;
+    margin: 1em;
+    letter-spacing: 1px;
+}
+.socialplatforms a
+{
+    color:#F9004D;
+font-weight: 400;
+}    
 /* FOOTER */
 
 footer
