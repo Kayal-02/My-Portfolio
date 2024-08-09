@@ -407,7 +407,7 @@ font-weight: 400;
 
 .progress-bar {
     height: 100%;
-    background-color: #000000b9;
+    background-color:  hsla(0, 0%, 0%, 0.699);
     border-radius: 50px;
     text-align: center;
     line-height: .95em;
@@ -674,6 +674,7 @@ color: rgb(255, 255, 255);
 }
 .socialplatforms a
 {
+
     color:#F9004D;
 font-weight: 400;
 }    
