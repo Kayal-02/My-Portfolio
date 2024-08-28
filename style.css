@@ -965,20 +965,26 @@ nav
 
 
 }
-@media screen and (max-width:385px)
+@media screen and (max-width:440px)
 {
-    /* .navbar
+    .intro
+{
+ 
+    padding: 1.5em;
+padding-right: .8em;
+margin: 0 ;
+}
+    .navbar
     {
-        width: 100%;
-        background-color: #000000;
-        display: grid;
-        grid-template-columns: 1fr;
-        row-gap: 5px;
-        align-items: center;
-        margin:0;
+       padding-left: 0.4em;
     
     }
-    nav
+    .navbar .logo
+    {
+       margin-left: 0;
+    
+    }
+    /* nav
     {
         padding: 0 .5em;
         text-align: left;
