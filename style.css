@@ -166,29 +166,14 @@ padding-bottom: 3em;
     margin: 0 2em;
     
 }
-.profile img
-{
-border-radius: 50%;
-background-color: #c7869b;
-background-color: #F9004D;
-padding: .06em;
-
-        width:360px;
-        height:370px;   
-}
-.profile img:hover
-{
-    padding: 0em;
-
-    box-shadow:#f9004f59 -1px 2px 12px 2px, #f9004fad -1px 2px 15px 2px;
-    cursor: pointer;
-}
 .profile
 {
     margin-left: 1em;
     display:none;
 
 }
+
+
 .intro
 {
     top: 0;
@@ -975,6 +960,23 @@ padding: 1em;}
         padding-left: .5em;
         display:block;
     }
+    #dp
+{
+border-radius: 50%;
+background-color: #c7869b;
+background-color: #F9004D;
+padding: .06em;
+
+        width:360px;
+        height:370px;   
+}
+#dp:hover
+{
+    padding: 0em;
+
+    box-shadow:#f9004f59 -1px 2px 12px 2px, #f9004fad -1px 2px 15px 2px;
+    cursor: pointer;
+}
     
 }
 
